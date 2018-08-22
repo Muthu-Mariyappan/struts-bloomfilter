@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DBConnector {
-	private final String USER = "root";
-	private final String PASS = "darkvoid";
-	private final String URL = "jdbc:mysql://localhost:3306/jpadb?useSSL=false";
+	private final String USER = "user";
+	private final String PASS = "password";
+	private final String URL = "jdbc:mysql://localhost:3306/test?useSSL=false";
 	private Connection conn;
 	
 	public DBConnector() throws SQLException, ClassNotFoundException {
